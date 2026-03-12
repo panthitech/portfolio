@@ -549,7 +549,6 @@
 /* Skills */
 .skillsa {
   padding: var(--space-24) 0;
-  background: #080808;
 }
 
 .skillsa-grid {
@@ -577,6 +576,7 @@
   width: 40px;
   height: 40px;
   object-fit: contain;
+    align-items:center;
   margin-bottom: 0.8rem;
   filter: drop-shadow(0 0 5px rgba(255,255,255,0.1));
 }
@@ -831,6 +831,7 @@
     }
 
   }
+
 
 
 
