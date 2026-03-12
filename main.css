@@ -8,6 +8,7 @@
     --color-bg-footer: #151515;
     --color-white: #ffffff;
     --color-text: #676767;
+    --color-text-menu: #ebebeb;
     --color-border: #373737;
       --bg-dark: #050505;
   --bg-card: #0F0F0F;
@@ -106,7 +107,7 @@
   
   a {
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-text-menu);
   }
   
   main {
@@ -834,6 +835,7 @@
     }
 
   }
+
 
 
 
