@@ -197,9 +197,10 @@
   }
 
 .line{
-border: none;
-height: 1px;
-background: #ccc;
+width:80%;
+height:1px;
+background:#949292;
+margin:30px auto;
 }
   
   /* Header
@@ -852,6 +853,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
