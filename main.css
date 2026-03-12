@@ -196,12 +196,6 @@
     color: var(--color-white);
   }
 
-.line{
-width:80%;
-height:1px;
-background:#4f4e4e;
-margin:30px auto;
-}
   
   /* Header
   --------------------------------------------------------------*/
@@ -853,6 +847,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
