@@ -433,7 +433,29 @@
     font-weight: var(--fw-bold);
     color: var(--color-white);
     margin-bottom: 2rem;
+  
   }
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.experience-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: var(--bg-card-hover);
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
   
   /* Services
   --------------------------------------------------------------*/
@@ -744,4 +766,5 @@
     .footer__wrapper {
       grid-template-columns: repeat(3, 1fr);
     }
+
   }
