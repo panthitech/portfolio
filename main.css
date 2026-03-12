@@ -40,6 +40,9 @@
   --space-16: 4rem;
   --space-24: 6rem;
 
+      /* Radius */
+  --radius-lg: 16px;
+  --radius-pill: 100px;
     
     /* z-index
     ___________________*/
@@ -825,6 +828,7 @@
     }
 
   }
+
 
 
 
