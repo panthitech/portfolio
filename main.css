@@ -577,6 +577,7 @@
   height: 40px;
   object-fit: contain;
     align-items:center;
+    justify-content: center;
   margin-bottom: 0.8rem;
   filter: drop-shadow(0 0 5px rgba(255,255,255,0.1));
 }
@@ -831,6 +832,7 @@
     }
 
   }
+
 
 
 
