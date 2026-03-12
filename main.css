@@ -584,7 +584,7 @@
 
 .skilla-name {
   display: block;
-  font-size: 2rem;
+  font-size: 22px;
   color: var(--text-gray);
 }
 
@@ -832,6 +832,7 @@
     }
 
   }
+
 
 
 
