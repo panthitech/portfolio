@@ -195,6 +195,12 @@
     background-color: var(--color-primary);
     color: var(--color-white);
   }
+
+.line{
+border: none;
+height: 1px;
+background: #ccc;
+}
   
   /* Header
   --------------------------------------------------------------*/
@@ -846,6 +852,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
