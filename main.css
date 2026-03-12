@@ -104,7 +104,7 @@
   /* Reusable CSS
   --------------------------------------------------------------*/
   .container {
-    width: 90%;
+    width: 100%;
     max-width: var(--width-container);
     margin: auto;
   }
