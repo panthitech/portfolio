@@ -563,9 +563,6 @@
 .skillsa-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-      align-items:center;
-    display:flex;
-justify-content:center;
   gap: 2rem;
 }
 
@@ -576,7 +573,7 @@ justify-content:center;
   border-radius: 12px;
   text-align: center;
     align-items:center;
-    display:flex;
+    display:center;
 justify-content:center;
   transition: all 0.2s;
 }
@@ -847,6 +844,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
