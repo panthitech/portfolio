@@ -15,6 +15,9 @@
      --border-color: #27272A;
   --accent-color: #FFFFFF; /* Minimalist white accent */
   --accent-glow: rgba(255, 255, 255, 0.15);
+    --text-white: #FFFFFF;
+  --text-gray: #A1A1AA;
+  --text-dark: #000000;
   
     /* Font & Typography
     ___________________*/
@@ -580,7 +583,7 @@
 
 .skilla-name {
   display: block;
-  font-size: 0.85rem;
+  font-size: 2rem;
   color: var(--text-gray);
 }
 
@@ -828,6 +831,7 @@
     }
 
   }
+
 
 
 
