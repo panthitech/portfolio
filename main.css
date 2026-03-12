@@ -108,6 +108,7 @@
   a {
     text-decoration: none;
     color: var(--color-white);
+      color: white;
   }
   
   main {
@@ -238,10 +239,12 @@
   
   .nav__list {
     display: flex;
+      color: white;
     column-gap: 4rem;
   }
   
   .nav__link {
+      color: white;
     transition: var(--transition);
   }
   
@@ -837,6 +840,7 @@
     }
 
   }
+
 
 
 
