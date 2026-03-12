@@ -571,6 +571,9 @@
   padding: 1.5rem;
   border-radius: 12px;
   text-align: center;
+    align-items:center;
+    display:flex;
+justify-content:center;
   transition: all 0.2s;
 }
 
@@ -840,6 +843,7 @@
     }
 
   }
+
 
 
 
