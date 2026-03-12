@@ -676,6 +676,103 @@ justify-content:center;
   .contact__description {
     margin-bottom: 2rem;
   }
+
+/* Contact */
+.contact {
+  padding: var(--space-24) 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.contact-details h4 {
+  color: var(--text-gray);
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.contact-details a {
+  color: var(--text-white);
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  color: var(--text-white);
+  transition: all 0.2s;
+}
+
+.social-link:hover {
+  background: var(--text-white);
+  color: var(--bg-dark);
+}
+
+.contact-form-container {
+  background: var(--bg-card);
+  padding: 2.5rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+}
+
+.form-group.focused .form-input {
+    border-color: #fff;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem;
+  background: #000;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-white);
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--text-white);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 1rem;
+  background: var(--text-white);
+  color: var(--bg-dark);
+  border: none;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
   
   /* Footer
   --------------------------------------------------------------*/
@@ -844,6 +941,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
