@@ -107,7 +107,7 @@
   
   a {
     text-decoration: none;
-    color: var(--color-text-menu);
+    color: var(--color-white);
   }
   
   main {
@@ -835,6 +835,7 @@
     }
 
   }
+
 
 
 
