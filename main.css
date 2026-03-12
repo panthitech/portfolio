@@ -9,6 +9,12 @@
     --color-white: #ffffff;
     --color-text: #676767;
     --color-border: #373737;
+      --bg-dark: #050505;
+  --bg-card: #0F0F0F;
+  --bg-card-hover: #161616;
+     --border-color: #27272A;
+  --accent-color: #FFFFFF; /* Minimalist white accent */
+  --accent-glow: rgba(255, 255, 255, 0.15);
   
     /* Font & Typography
     ___________________*/
@@ -25,7 +31,16 @@
     --fw-medium: 500;
     --fw-semibold: 600;
     --fw-bold: 700;
-  
+
+
+      /* Spacing */
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+    
     /* z-index
     ___________________*/
     --zindex-menu: 1000;
@@ -526,18 +541,18 @@
   }
 
 /* Skills */
-.skills {
+.skillsa {
   padding: var(--space-24) 0;
   background: #080808;
 }
 
-.skills-grid {
+.skillsa-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 1rem;
 }
 
-.skill-item {
+.skilla-item {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   padding: 1.5rem;
@@ -546,13 +561,13 @@
   transition: all 0.2s;
 }
 
-.skill-item:hover {
+.skilla-item:hover {
   background: var(--bg-card-hover);
   border-color: var(--text-gray);
   transform: translateY(-3px);
 }
 
-.skill-icon-img {
+.skilla-icon-img {
   width: 40px;
   height: 40px;
   object-fit: contain;
@@ -560,7 +575,7 @@
   filter: drop-shadow(0 0 5px rgba(255,255,255,0.1));
 }
 
-.skill-name {
+.skilla-name {
   display: block;
   font-size: 0.85rem;
   color: var(--text-gray);
@@ -810,5 +825,6 @@
     }
 
   }
+
 
 
