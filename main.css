@@ -127,7 +127,7 @@
   /* Reusable CSS
   --------------------------------------------------------------*/
   .container {
-    width: 100%;
+    /* width: 100%; */
     max-width: 1200px;
        margin: 0 auto;
   padding: 0 var(--space-6);
@@ -942,6 +942,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
