@@ -698,18 +698,18 @@ justify-content:center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size:0.9rem;
 }
 
 .contact-details h4 {
   color: var(--text-gray);
-  font-size:2.0rem;
+  font-size:1.5rem;
   margin-bottom:0.8rem;
 }
 
 .contact-details a {
   color: var(--text-white);
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
@@ -942,6 +942,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
