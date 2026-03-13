@@ -690,8 +690,8 @@ justify-content:center;
 }
 
 .contact-icon {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 50%;
@@ -942,6 +942,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
