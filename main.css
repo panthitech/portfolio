@@ -128,9 +128,9 @@
   --------------------------------------------------------------*/
   .container {
     width: 100%;
-    /* max-width: 1200px; */
-       margin: 0 auto;
-  padding: 0 var(--space-6);
+    /* width: 90%; */
+    max-width: var(--width-container);
+    margin: auto;
   }
   
   .section {
@@ -942,6 +942,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
