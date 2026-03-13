@@ -686,12 +686,12 @@ justify-content:center;
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  gap: 4rem;
+  gap: 8rem;
 }
 
 .contact-icon {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 50%;
@@ -703,8 +703,8 @@ justify-content:center;
 
 .contact-details h4 {
   color: var(--text-gray);
-  font-size: 0.9rem;
-  margin-bottom: 0.2rem;
+  font-size:2.0rem;
+  margin-bottom:0.8rem;
 }
 
 .contact-details a {
@@ -942,6 +942,7 @@ justify-content:center;
     }
 
   }
+
 
 
 
