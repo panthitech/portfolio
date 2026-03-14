@@ -319,6 +319,7 @@ section {
     border: 1px solid var(--accent-primarys);
     padding: 12px 16px;
     font-size: 1.0rem;
+    border-radius: 50px;
 }
 
 .btn-outline:hover {
