@@ -593,3 +593,42 @@
 </body>
 
 </html>
+
+                    <script>
+    const typewriterTexts = [
+      "Android App Developer",
+      "UI/UX Designer",
+      "Grphics Designer",
+      "Bug/Error Solver",
+    ];
+
+    let currentTextIndex = 0;
+    let charIndex = 0;
+
+    const typewriterElement = document.getElementById("typewriter");
+
+    function typeEffect() {
+      // Get the current text
+      const currentText = typewriterTexts[currentTextIndex];
+
+      // Update the text content with the next character
+      typewriterElement.textContent = currentText.slice(0, charIndex);
+
+      // Increment the character index
+      charIndex++;
+
+      // If the full text has been typed, pause and then switch to the next text
+      if (charIndex > currentText.length) {
+        setTimeout(() => {
+          charIndex = 0; // Reset character index
+          currentTextIndex = (currentTextIndex + 1) % typewriterTexts.length; // Move to next text
+        }, 2000); // Pause before switching
+      }
+
+      // Continue typing every 100ms
+      setTimeout(typeEffect, 100);
+    }
+
+    // Start the typewriter effect
+    typeEffect();
+</script>
